@@ -58,7 +58,7 @@ salvalettera:
 	li $t3,0 		#$t3 diventa una variabile numerica uguale a 0 (non e' piu' un indirizzo)
 	sb $t1, ($s2) 		#si carica la lettera non doppia nello space
 	addi $s2,$s2,1		#si aumenta lo space per passare alla prossima posizione
-	move $t5,$s1 		#$t5 diventa il contatore che verra'  utilizzato in controllo a dx per non modificare $s1 e poterlo riutilizzare
+	move $t5,$s1 		#$t5 diventa il contatore che verra'Â  utilizzato in controllo a dx per non modificare $s1 e poterlo riutilizzare
 	addi $s3,$s3,1
 	
 controllodx:
@@ -107,3 +107,8 @@ uscita:
 	
 	li $v0,10
 	syscall
+
+
+syscall
+syscall
+syscall
